@@ -110,7 +110,7 @@ int main(int argc, char **argv) {
 
 	  algo_top(test_in, test_out);
 
-	for(size_t k=0; k<N_INPUT_LINKS; k++){
+	for(size_t k=0; k<N_OUTPUT_LINKS; k++){
 		link_out[k].write({test_out[k], 0, 1});
 	}
 
